@@ -15,7 +15,7 @@ if (!token) {
   localStorage.setItem('token', token);
 }
 
-const autorized = ['YOEAR1KLi1PCNF8wUnYEteGCJZ2uyJTz', 'other'];
+const autorized = ['YOEAR1KLi1PCNF8wUnYEteGCJZ2uyJTz', '5rGkPKk72p43S1PHePAofaPVnbXwBvs7'];
 
 if (autorized.includes(token)) {
     console.log("Running");
